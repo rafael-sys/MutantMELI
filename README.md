@@ -5,7 +5,7 @@ Prueba tecnica mercado libre
 
 Esta aplicación fue creada ya que Magneto quiere reclutar la mayor cantidad de mutantes para poder luchar contra los X-Men.
 
-There are two endpoints on this application:
+La aplicación tiene dos endpoints:
 
 - https://mutants-333112.uc.r.appspot.com/stats [GET]
 - https://mutants-333112.uc.r.appspot.com/mutant [POST]
@@ -42,7 +42,7 @@ El body del post es similar al siguiente:
  - Si la validación de secuencia de ADN da **true** para mutante, retornara HTTP code 200. 
  - Si la validación de secuencia de ADN da **false** para mutante, retornara HTTP code 403. 
 
-## About the Architecture
+## Acerca de la arquitectura
 
 La aplicación es desarrollada en GO(Golang), y se conecta a una instancia de base de datos alojada en infraestructura Cloud, mediante el motor de base de datos MongoDB.
 
