@@ -283,7 +283,7 @@ func main() {
 
 	router.HandleFunc("/", indexRoute)
 	router.HandleFunc("/mutant", validateMutant).Methods("POST")
-	router.HandleFunc("/stats", getStadisticsMutant).Methods("POST")
+	router.HandleFunc("/stats", getStadisticsMutant).Methods("GET")
 
 	port := os.Getenv("PORT")
 	if port == "" {
