@@ -62,7 +62,7 @@ Ahora, entendamos la petición GET;
 
 ## Ejecutando la aplicación
 
-Para ejecutar la aplicación localmente se deben ejecutar los siguientes comandos, en el cmd de Windows:
+Para ejecutar la aplicación localmente se deben ejecutar los siguientes comandos, la linea de comandos:
 ```bash
 go get github.com/githubnemo/CompileDaemon
 ``` 
