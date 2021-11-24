@@ -46,6 +46,8 @@ El body del post es similar al siguiente:
 
 La aplicación es desarrollada en GO(Golang), y se conecta a una instancia de base de datos alojada en infraestructura Cloud, mediante el motor de base de datos MongoDB.
 
+Entre las mejoras que se pueden incluir, se puede pensar en un arquitectura donde las estructuras esten en paquetes diferentes, igual que la logica de mutantes y el acceso a base de datos. De esta forma, abstraemos estos componentes en paquetes independientes.
+
 Entendiendo el flujo de la petición POST:
 
  1. El usuario envia el ADN mediante el body de la petición
