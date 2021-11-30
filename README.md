@@ -70,3 +70,6 @@ go get github.com/githubnemo/CompileDaemon
 ```bash
 CompileDaemon --command="main.go.exe"
 ``` 
+La aplicación iniciara su ejecución bajo el puerto 3000, y los endpoint se podran consumir de la siguiente manera:
+- http:localhost:3000/stats [GET]
+- http:localhost:3000/mutant [POST]
